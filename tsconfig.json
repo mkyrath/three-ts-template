@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "esnext",  
+        "moduleResolution": "node",
+        "strict": true,
+        "noImplicitAny": true,                 
+        "strictNullChecks": true,              
+        "strictFunctionTypes": true,           
+        "strictBindCallApply": true,           
+        "strictPropertyInitialization": true,  
+        "noImplicitThis": true,                
+        "alwaysStrict": true,                  
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "paths": {
+            "three/examples/jsm/libs/dat.gui.module": ["../../node_modules/@types/dat.gui"]
+        }
+    },
+    "include": ["**/*.ts"],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "**/*.test.ts",
+        "**/*.spec.ts"
+  ]
+}
